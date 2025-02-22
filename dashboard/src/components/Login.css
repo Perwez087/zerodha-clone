@@ -1,0 +1,57 @@
+/* Mobile view: max-width 768px */
+@media (max-width: 768px) {
+  .body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 1rem;
+    margin-top: -30px;
+  }
+
+  .auth-container {
+    width: 100%;
+    max-width: 450px;
+    height: 500px;
+    margin: 0;
+    padding-bottom: 6rem; /* Updated to 4rem */
+  }
+
+  .img-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-logo img {
+    width: 40px;
+  }
+
+  form input {
+    width: 100%;
+    font-size: 14px;
+    padding: 0.75rem;
+  }
+
+  form button.auth-btn {
+    width: 100%;
+    font-size: 14px; /* Reduced button font-size */
+    padding: 0.5rem; /* Reduced button padding */
+  }
+
+  h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  span {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+  span a {
+    color: #387ed1;
+  }
+}

@@ -1,0 +1,59 @@
+/* General styling for images and text */
+.product-image {
+  width: 100%;
+  max-width: 500px;
+}
+
+.content-section {
+  margin-top: 15%;
+}
+
+.product-description {
+  font-size: 18px;
+  padding-right: 35px;
+}
+
+.link-button {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.link-icon {
+  font-size: 12px;
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+  .product-image {
+    max-width: 100%;
+  }
+
+  .content-section {
+    margin-top: 10%;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .product-description {
+    font-size: 16px;
+    padding-right: 0;
+  }
+
+  .link-button {
+    font-size: 16px;
+  }
+
+  .link-icon {
+    font-size: 10px;
+  }
+
+  /* Adjust container padding for mobile */
+  .container {
+    padding: 15px;
+  }
+
+  /* Text alignment adjustments */
+  .text-center {
+    text-align: center !important;
+  }
+}

@@ -1,0 +1,41 @@
+/* General styling */
+.hero-title {
+  font-size: 45px;
+}
+
+.hero-subtitle {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.hero-text {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.hero-link {
+  text-decoration: none;
+}
+
+.fa-arrow-right-long {
+  font-size: 12px;
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+  }
+
+  .hero-text {
+    font-size: 14px;
+  }
+
+  .fa-arrow-right-long {
+    font-size: 10px;
+  }
+}

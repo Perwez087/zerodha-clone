@@ -1,0 +1,53 @@
+/* General styling */
+.product-image {
+  width: 100%;
+  max-width: 500px;
+}
+
+.content-section {
+  padding-left: 10%;
+}
+
+.product-description {
+  font-size: 18px;
+}
+
+.link-button {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link-icon {
+  font-size: 12px;
+}
+
+.store-icons .store-icon {
+  width: 150px;
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+  .product-image {
+    max-width: 100%;
+  }
+
+  .content-section {
+    padding-left: 0;
+  }
+
+  .product-description {
+    font-size: 16px;
+  }
+
+  .link-button {
+    font-size: 16px;
+  }
+
+  .link-icon {
+    font-size: 10px;
+  }
+
+  .store-icons .store-icon {
+    width: 120px;
+  }
+}

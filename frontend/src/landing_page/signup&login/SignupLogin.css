@@ -1,0 +1,136 @@
+/* Base styles */
+.container {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+.logo-img {
+  width: 120px;
+  padding: 1.5rem; /* Default size for mobile */
+}
+
+.auth-container {
+  background-color: #fff;
+  padding: 5px 38px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 6px 6px 24px 0px rgba(66, 68, 90, 0.5);
+  box-sizing: border-box; /* Ensure padding is included in width */
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Responsive styles for mobile view */
+@media (max-width: 786px) {
+  .container {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Reduce padding for mobile view */
+  }
+
+  .auth-container {
+    width: 300px; /* Full width on mobile */
+    padding: 2rem; /* Adjust padding for mobile view */
+    max-width: 100%; /* Prevent exceeding screen width */
+    height: auto; /* Allow container height to adjust to content */
+    margin: 0; /* Remove margin to fit container within parent */
+  }
+
+  .auth-btn {
+    width: 100%; /* Full width on mobile */
+    max-width: none; /* Remove max-width limitation */
+  }
+
+  .info-text {
+    font-size: 12px; /* Adjust font size for mobile view */
+  }
+
+  .logo-img {
+    width: 100px;
+    padding-bottom: 2rem; /* Reduce the logo size on tablet and desktop */
+  }
+  .img-responsive {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .logo-img {
+    width: 80px; /* Further reduce the logo size on larger desktops */
+  }
+}
+
+.auth-container label {
+  font-size: 15px;
+}
+
+.auth-container > h4 {
+  margin-bottom: 15px;
+}
+
+.auth-container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.auth-container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container input {
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.auth-container input::placeholder {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.auth-btn {
+  background-color: #6098da;
+  border: none;
+  width: 100%; /* Full width on mobile */
+  max-width: 200px; /* Optional: Limit button size */
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 40px 0;
+}
+
+.auth-btns {
+  background-color: #db342c;
+  border: none;
+  font-size: 14px;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+#menu:active {
+  color: #6098da;
+}
+
+#menu:focus {
+  color: #6098da;
+}
+
+#menu:hover {
+  color: #6098da;
+}

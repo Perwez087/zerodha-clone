@@ -1,0 +1,37 @@
+/* Base styles */
+.container {
+  padding: 3rem 2rem;
+}
+
+.hero-heading {
+  padding: 0 250px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 30px;
+}
+
+.content-wrapper {
+  padding: 0 180px;
+}
+
+.hero-paragraph {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .hero-heading {
+    padding: 0;
+    margin-bottom: 50px;
+    font-size: 20px !important;
+  }
+
+  .content-wrapper {
+    padding: 0 1rem;
+  }
+
+  .hero-paragraph {
+    font-size: 16px;
+  }
+}

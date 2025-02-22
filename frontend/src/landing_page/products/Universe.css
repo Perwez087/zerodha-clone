@@ -1,0 +1,32 @@
+/* General styles for images */
+.universe-image {
+  width: 100%;
+  max-width: 220px;
+}
+
+/* Button styling */
+.universe-btn {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+/* Responsive text adjustments */
+@media (max-width: 768px) {
+  .text-muted {
+    font-size: 16px;
+  }
+
+  .universe-image {
+    max-width: 180px;
+  }
+
+  .universe-btn {
+    max-width: 200px;
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}

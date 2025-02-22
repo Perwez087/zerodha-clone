@@ -1,0 +1,28 @@
+/* General styling */
+.team-img {
+  width: 230px;
+  height: auto;
+}
+
+.team-info {
+  padding: 0 10%;
+}
+
+.team-link {
+  text-decoration: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .team-img {
+    width: 150px;
+  }
+
+  .team-info {
+    padding: 0 2rem;
+  }
+
+  .col-sm-6 {
+    margin-bottom: 20px;
+  }
+}
