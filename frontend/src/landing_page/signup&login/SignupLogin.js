@@ -39,7 +39,7 @@ function SignupLogin() {
         handleSuccess(message);
         setTimeout(() => {
           window.location.href =
-            "https://zerodha-clone-pi.vercel.app/auth/login";
+            "https://zerodha-clone-dashboard-jade.vercel.app/login";
         }, 1000);
       } else if (error) {
         const details = error?.details[0].message;

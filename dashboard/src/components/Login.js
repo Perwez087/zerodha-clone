@@ -88,7 +88,7 @@ function Login() {
             Don't have an account ?
             <Link
               style={{ textDecoration: "none" }}
-              to="/signup"
+              to="https://zerodha-clone-c77t.vercel.app/signup"
             >
               Signup
             </Link>
