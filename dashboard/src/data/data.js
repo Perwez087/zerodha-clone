@@ -196,9 +196,9 @@ export const positions = [
 
 export const users = [
   {
-    email: "faizan@123.com",
-    username: "faizan",
-    password: "faizan123",
+    email: "parwez.com",
+    username: "parwez",
+    password: "parwez123",
     createdAt: Date,
   },
 ];

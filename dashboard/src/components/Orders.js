@@ -11,7 +11,7 @@ const Orders = () => {
 
   const fetchOrders = () => {
     axios
-      .get("https://zerodha-clone-gtro.onrender.com/buyOrders")
+      .get("https://zerodha-clone-pi.vercel.app/buyOrders")
       .then((response) => {
         setBuyOrders(response.data);
       })
@@ -22,7 +22,7 @@ const Orders = () => {
 
   const handleDelete = (orderId) => {
     axios
-      .delete(`https://zerodha-clone-gtro.onrender.com/deleteOrder/${orderId}`)
+      .delete(`https://zerodha-clone-pi.vercel.app/deleteOrder/${orderId}`)
       .then((response) => {
         alert(response.data.message);
         fetchOrders(); // Refresh orders after deletion

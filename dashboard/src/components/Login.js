@@ -26,7 +26,7 @@ function Login() {
       return handleError("All fields are require");
     }
     try {
-      const url = "https://zerodha-clone-gtro.onrender.com/auth/login";
+      const url = "https://zerodha-clone-pi.vercel.app/auth/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
@@ -88,7 +88,7 @@ function Login() {
             Don't have an account ?
             <Link
               style={{ textDecoration: "none" }}
-              to="https://zerodha-clone-frontend-svku.onrender.com/signup"
+              to="/signup"
             >
               Signup
             </Link>

@@ -25,7 +25,7 @@ function SignupLogin() {
       return handleError("All fields are required");
     }
     try {
-      const url = "";
+      const url = "https://zerodha-clone-pi.vercel.app/auth/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
@@ -39,7 +39,7 @@ function SignupLogin() {
         handleSuccess(message);
         setTimeout(() => {
           window.location.href =
-            "";
+            "https://zerodha-clone-pi.vercel.app/auth/login";
         }, 1000);
       } else if (error) {
         const details = error?.details[0].message;
